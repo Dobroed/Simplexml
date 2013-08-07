@@ -1,0 +1,436 @@
+      body {
+      
+		/*font-family:  'PTSansRegular', Myriad Pro,sans-serif;*/
+      }
+p {
+font-size:1em;
+line-height:25px;
+}
+i {
+text-decoration:none!important;
+
+}
+
+.login i,.contact i {padding-right:5px;}
+
+.blockdivider{
+background:url('../img/block_divider.png') repeat-x;
+
+padding: 0 0 3px;
+clear: both;
+margin-top: 30px;
+}
+
+    
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+     
+      
+	  
+#wrapper{
+	background: url(img/bg_featured.jpg) 50% 100% repeat rgb(43, 105, 154);
+	color:#fff;
+	-moz-box-shadow:0px 4px rgba(255,255,255,0.5);
+    -webkit-box-shadow:0px 4px 10px rgba(255,255,255,0.5);
+    box-shadow:0px 4px 10px rgba(255,255,255,0.5);
+}
+ #wrappe p{
+	font-size:1.2em;
+	color:#fff;
+	text-align:center;
+}
+
+/*  Блоки на графике */
+
+#headplan
+{    
+  position:relative;
+  top:30px;
+  left:38px;
+  width:250px;
+  height:90px;
+
+}
+#headpromotion
+{
+position:relative;
+top:-50px;
+left:300px;
+width:280px;
+height:90px;
+
+}
+
+#headanalytic{
+  position:relative;
+  top:-80px;
+  left:280px;
+  width:200px;
+  height:80px;
+
+
+}
+#headcreate {
+    position:relative;
+    top:50px;
+    left:80px;
+    width:200px;
+    height:80px;
+    
+  
+}
+
+#promo ul
+{
+    list-style: none;
+}
+#promo ul li    {
+    font-size:0.9em;
+    text-align: left;
+    line-height: 18px;
+   
+}
+#promo ul li.nav-header { 
+    color:#ffffff; text-shadow:none;padding:0;
+}
+#promo ul li a {
+    color:#ffffff;
+
+    
+}
+#promo ul li a:hover {
+ border: none;
+   color: #ffffff!important;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+
+
+/* Шрифты для нехрома */
+
+@font-face {
+    font-family: 'PTSansWEB';
+    src: url('../font/pts55f-webfont.eot');
+    src: url('../font/pts55f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/pts55f-webfont.woff') format('woff'),
+         url('../font/pts55f-webfont.ttf') format('truetype'),
+         url('../font/pts55f-webfont.svg#PTSansRegular') format('svg');
+font-style:normal;
+font-weight:normal;
+}
+
+@font-face {
+    font-family: 'PTSansWEB';
+    src: url('../font/PTS75F-webfont.eot');
+    src: url('../font/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/PTS75F-webfont.woff') format('woff'),
+         url('../font/PTS75F-webfont.ttf') format('truetype'),
+         url('../font/PTS75F-webfont.svg#PTSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'PTSansWEB';
+    src: url('../font/PTS76F-webfont.eot');
+    src: url('../font/PTS76F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/PTS76F-webfont.woff') format('woff'),
+         url('../font/PTS76F-webfont.ttf') format('truetype'),
+         url('../font/PTS76F-webfont.svg#PTSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+	}
+	
+	@font-face {
+    font-family: 'PTSansWEB';
+    src: url('../font/pts56f-webfont.eot');
+    src: url('../font/pts56f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/pts56f-webfont.woff') format('woff'),
+         url('../font/pts56f-webfont.ttf') format('truetype'),
+         url('../font/pts56f-webfont.svg#PTSansItalic') format('svg');
+  font-weight:normal;
+    font-style: italic;
+
+}
+
+	
+/* Повторы для хрома  */
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        
+    font-family: 'PTSansWEB';
+    src: url('../font/pts55f-webfont.svg#PTSansRegular') format('svg');
+       font-weight:normal;
+    }
+	
+
+@font-face {
+    font-family: 'PTSansWEB';
+    src: url('../font/pts56f-webfont.eot');
+    src: url('../font/pts56f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/pts56f-webfont.woff') format('woff'),
+         url('../font/pts56f-webfont.ttf') format('truetype'),
+         url('../font/pts56f-webfont.svg#PTSansItalic') format('svg');
+  font-weight:normal;
+    font-style: italic;
+
+}
+}
+
+/*@font-face {
+	font-family: 'CenturySchoolbook-Bold';
+	src: url(../font/CenturySchoolbook-Bold.eot);
+	src: url(../font/CenturySchoolbook-Bold.eot?#iefix) format('embedded-opentype'),
+		url(../font/CenturySchoolbook-Bold.woff) format('woff'),
+		url(../font/CenturySchoolbook-Bold.ttf) format('truetype'),
+		url(../font/CenturySchoolbook-Bold.svg#CenturySchoolbook-Bold) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CenturySchoolbook-BoldItalic';
+	src: url(../font/CenturySchoolbook-BoldItalic.eot);
+	src: url(../font/CenturySchoolbook-BoldItalic.eot?#iefix) format('embedded-opentype'),
+		url(../font/CenturySchoolbook-BoldItalic.woff) format('woff'),
+		url(../font/CenturySchoolbook-BoldItalic.ttf) format('truetype'),
+		url(../font/CenturySchoolbook-BoldItalic.svg#CenturySchoolbook-BoldItalic) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+
+/* header */
+#header{
+
+height:110px;
+}
+
+.contact
+{
+margin-top:30px;
+text-align: left;
+width:100%;
+}
+
+.login
+{
+margin-top:30px;
+text-align: right;
+}
+
+#login .btn {border-radius:25px; }
+#login a
+{
+font-size:1.1em;
+color: #ffffff;
+}
+#login a:hover
+{
+ color: #ffffff!important;
+    transition: all 0.2s ease-in-out 0s;
+	text-decoration:none;
+}
+
+
+
+
+#promo-area-home {
+
+    background: url("../img/bg_featured.jpg")  repeat scroll center top #2B699A;
+    height: 440px;
+    text-align: center;
+	color:#fff;
+	-moz-box-shadow:0px 4px 10px #a3a3a3;
+    -webkit-box-shadow:0px 4px 10px #a3a3a3;
+    box-shadow:0px 4px 10px #a3a3a3;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+#promo-area-home #promo-lighting {
+    background: none repeat scroll 0 0 transparent;
+}
+#promo {
+    margin: 0 auto;
+    padding-top: 10px;
+   width: 960px;
+}
+#promo h1 {
+font-size:2em;
+}
+
+#nav-stripe {
+    background: url("../img/bg-nav1.jpg") repeat scroll left top #171717;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    height: 40px;
+	border-top: 2px solid #107DB9;
+	border-bottom:1px solid #0087BB;
+}
+/*  Меню навигации cверху */
+
+#headmenu.nav  > li > a:hover,
+#headmenu.nav > li > a:focus {
+ color: #76A336!important;
+    transition: all 0.2s ease-in-out 0s;
+}
+#headmenu.nav li.dropdown > a:hover .caret,
+#headmenu.nav li.dropdown > a:focus .caret {
+  border-top-color: #76A336!important;
+  border-bottom-color: #76A336!important;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+/* Custom container */
+.maincontainer
+{    margin: 10px auto; max-width: 1000px;
+padding: 10px;
+
+	/*box-shadow: 0px 5px 10px 1px rgb(177, 177, 177);
+        -webkit-box-shadow: 0px 5px 10px 1px rgb(177, 177, 177);
+      background:url('../img/pattern/diagonal-noise4.png') repeat;*/
+}
+        
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+
+}
+.container > hr {
+    margin: 60px 0;
+}
+
+.step
+{
+margin-top:80px;
+}
+#planing, #create, #analytics,#promotion, #planingGoal {
+ float:left;
+ width:100px;
+ height:100px;
+ padding-top:10px;
+}
+.planing h2
+{
+margin-top:25px;
+}
+.analytics h2
+{
+margin-top:25px;
+}
+
+
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 50px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 100px;
+    line-height: 1;
+	  text-shadow: rgba(32, 82, 108, 0.5) 0px 2px 1px;
+}
+.jumbotron .lead {
+    font-size: 24px;
+    line-height: 1.25;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+/*  Footer  */
+#footer 
+{
+height:350px;
+margin-top:50px;
+color:#cbcbcb;
+background:url(../img/footer_bg.png) repeat-x;
+}
+#copyright
+{
+margin-top:30px;
+}
+#inverse .nav.nav-list  a 
+{
+text-decoration:underline;
+  color: #CBCBCB;
+  text-shadow: none;
+  background: none;
+  
+}  
+#inverse .nav.nav-list  a:hover,#inverse .nav.nav-list  a:focus  {
+
+text-decoration:underline;
+color: #76A336!important;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#inverse .nav-list > li > a, .nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+	color:#CBCBCB;
+    text-shadow: none!important;
+	font-size:14px;
+}
+#inverse .nav-list .divider {
+    background-color: #E5E5E5;
+    border-bottom: none;
+}
+.footer-divider {
+margin: 0 25px 0 25px !important;
+padding: 0 !important;
+background: url('../img/footer_divider.png') no-repeat 0 0;
+width: 1px !important;
+height: 250px;
+}
+
+
+

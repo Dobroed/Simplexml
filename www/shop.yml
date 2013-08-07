@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1251"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
 
-<yml_catalog date="2013-08-05 06:03">
+<yml_catalog date="2013-08-07 06:20">
     <shop>
         <name>Центр детской безопасности Homana</name>
         <company>Центр детской безопасности Homana</company>
@@ -2939,17 +2939,6 @@
                 <description></description>
                 <model>Велокресло BODY GUARD</model>
             </offer>
-            <offer id="610896" type="vendor.model" available="false">
-                <articul>11187024</articul>
-                <url>http://homana.ru/Heyner-Avtokreslodetskoe_Siden_e__BOOSTER-safeUp-ERGOM_-Chernoe_11187024/</url>
-                <price>1484.88</price>
-                <currencyId>RUR</currencyId>
-                <categoryId>1375</categoryId>
-                <name>Автокресло-бустер детское Heyner SafeUp ERGO M, группа 2/3, 25-36кг, черное</name>
-                <vendor>Heyner</vendor>
-                <description>Автокресло детское сиденье "BOOSTER SafeUp ERGO M" черное HEYNER</description>
-                <model>Автокресло детское сиденье </model>
-            </offer>
             <offer id="572499" type="vendor.model" available="false">
                 <articul>11187201</articul>
                 <url>http://homana.ru/BREVI-Avtokreslo-9-36Kg-TAOb-fix__gr_1-2_3-2_sht_Kor_Zelen-Chern-italiya_11187201/</url>
@@ -4542,6 +4531,17 @@
                 <name>Детское автокресло Graco Logico S 0-13кг, группа 0, 0+ (от рождения до 1 года) [pece]</name>
                 <description></description>
                 <model>Graco Logico S pece</model>
+            </offer>
+            <offer id="610896" type="vendor.model" available="true">
+                <articul>11187024</articul>
+                <url>http://homana.ru/Heyner-Avtokreslodetskoe_Siden_e__BOOSTER-safeUp-ERGOM_-Chernoe_11187024/</url>
+                <price>1484.88</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>1375</categoryId>
+                <name>Автокресло-бустер детское Heyner SafeUp ERGO M, группа 2/3, 25-36кг, черное</name>
+                <vendor>Heyner</vendor>
+                <description>Автокресло детское сиденье "BOOSTER SafeUp ERGO M" черное HEYNER</description>
+                <model>Автокресло детское сиденье </model>
             </offer>
         </offers>
     </shop>
